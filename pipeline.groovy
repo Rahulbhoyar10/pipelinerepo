@@ -1,25 +1,26 @@
-// pipeline {
-//     agent any
-//     stages {
-//         stage('git-pull') {
-//             steps {
-//                 echo "pull-sucess"
-//             }
-//         }
-//         stage('Build') {
-//             steps {
-//                 echo "build-sucess"
-//             }
-//         }
-//         stage('Test') {
-//             steps {
-//                 echo "test sucess"
-//             }
-//         }
-//         stage('Deploy') {
-//             steps {
-//                 echo "deploy sucess"
-//             }
-//         }
-//     }
-// }
+pipeline {
+    agent any
+    stages {
+        stage('git-pull') {
+            steps {
+                echo "pull-sucess"
+            }
+        }
+        stage('Build') {
+            steps {
+                echo "build-sucess"
+            }
+        }
+        stage('Test') {
+            steps {
+                echo "test sucess"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "deploy sucess"
+            }
+        }
+    }
+
+}
